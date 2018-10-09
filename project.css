@@ -1,0 +1,42 @@
+.nav_bar{
+    background-color: peru;
+}
+.logo img{
+    width: 75px;
+
+}
+.nav_items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_items a{
+    color: whitesmoke;
+    text-decoration: none;    
+}
+.nav_mobile_toggle{
+    border-top: 2px solid white;
+    /* display:none; */
+}
+.nav_mobile_toggle a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+@media (min-width: 768px) {}
+
+.container {
+    max-width: 720px;
+}
+
+@media (min-width: 1260px) {}
+
+.container {
+    max-width: 1200px;
+}
